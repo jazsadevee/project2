@@ -1,10 +1,10 @@
 > [Template Used](https://github.com/metruzanca/ga-vercel-demo)
 
-# Simple Cook
+# Simple Chief
 
 ### Description:
 
-Simple Cook is an app that will provide the user with a list of recipes based on the main ingredients.. i.e seafood, chicken, beef/steak, vegetarian, turkey or pork. It will provide a list of ingredients and instructions of the chosen meal. 
+Simple Chief is an app that will provide the user with a list of recipes based on the main ingredients.. i.e seafood, chicken, beef/steak, vegetarian, turkey or pork. It will provide a list of ingredients and instructions of the chosen meal. 
 
 ### API: https://www.themealdb.com/api
 
