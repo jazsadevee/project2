@@ -8,5 +8,6 @@
 # You'll need to switch to either `local` or `vercel` to get started.
 
 @baseUrl = {{host}}/api/
+# @baseUrl = https://www.themealdb.com/api
 
 GET {{baseUrl}}
