@@ -14,11 +14,32 @@ Simple Cook is an app that will provide the user with a list of recipes based on
 - Create routes for the backend.. ingredients, description, instructions and the name 
 - Create a drop down menu or navigational bar to choose between different recipes 
 
-# Weekly Goals
+### Post MVP 
+
+- frontend CSS design 
+- drop down menu/navigational bar
+- Animation for the page 
+- Create a Dessert section 
+
+## Weekly Goals
 
 - Tuesday: complete planning for the app & make sure APIs is properly working 
 - Wednesday: create Schema for each data JSON that'll be used 
 - Thurday: complete nessesary code so the app is functional 
 - Friday: debug any imprefections from the code 
 
- 
+### Data Model
+
+```javascript
+
+const recipeSchema = new mongoose.Schema({
+  category: String,
+  meal: String,
+  ingredients: [],
+  instructions: String,
+  video: String
+})
+
+const Recipe = mongoose.model('Recipe', recipeSchema)
+
+```
