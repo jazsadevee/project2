@@ -35,11 +35,33 @@ Simple Chief is an app that will provide the user with a list of recipes based o
 const recipeSchema = new mongoose.Schema({
   category: String,
   meal: String,
-  ingredients: [],
   instructions: String,
   video: String
 })
 
 const Recipe = mongoose.model('Recipe', recipeSchema)
+
+
+const ingredientSchema = new mongoose.Schema({
+  ingredientList: [
+    items: String
+  ],
+  measurement: [
+    sizes: String
+  ]
+})
+
+const Amount = mongoose.model('Amount', ingredientSchema)
+
+
+const newRecipeSchema = new mongoose.Schema({
+  category: String,
+  meal: String,
+  vegetarian: Boolean,
+  instructions: String,
+  userName: String,
+})
+
+const NewRecipe = mongoose.model('NewRecipe', newRecipeSchema)
 
 ```
