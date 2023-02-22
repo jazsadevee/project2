@@ -300,17 +300,112 @@
          "items4": "Evaporated Milk",
          "items5": "Worcestershire Sauce",
          "items6": "Cayenne Pepper",
-         "items7": "garlic",
-         "items8": "",
-         "items9": "",
-         "items10": "",
-         "items11": "",
-         "items12": "",
-         "items13": ""
+         "items7": "Garlic"
         }
         ],
       "measurement": [
         {
+        "size1": "2 pounds Ground Beef",
+        "size2": "1 large Egg",
+        "size3": "2 tablespoon Breadcrumbs",
+        "size4": "2 tablespoon Evaporated Milk",
+        "size5": "2 tablespoon Worcestershire Sauce",
+        "size6": "1 teaspoon Cayenne Pepper",
+        "size7": "1 teaspoon Garlic"
+        }
+        ],
+      "instructions": "Preheat a grill for high heat. Mix the ground beef, egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and garlic in a large bowl using your hands. Form the mixture into 8 hamburger patties.Lightly oil the grill grate. Grill patties until browned and no longer pink, about 5 minutes per side."
+  },
+  {
+    "category": "Beef",
+    "meal": "Sirloin Steak with Garlic Butter",
+    "ingredientList": [
+      {
+       "items1": "Sirloin Steak",
+       "items2": "Salt",
+       "items3": "Pepper",
+       "items4": "Olive Oil",
+       "items5": "Butter",
+       "items6": "Garlic",
+       "items7": "Thyme",
+       "items8": "Parsley"
+      }
+      ],
+    "measurement": [
+      {
+       "size1": "1 1/4 pound Sirloin Steak",
+       "size2": "1/4 teaspoon Salt",
+       "size3": "1/4 teaspoon Pepper",
+       "size4": "1 tablespoon Olive Oil",
+       "size5": "4 tablespoon Butter",
+       "size6": "1/2 teaspoon Minced Garlic",
+       "size7": "1 tablespoon Thyme",
+       "size8": "1 tablespoon Parsley"
+      }
+      ],
+    "instructions": "Pat each steak dry with a paper towel. Heat a large cast iron skillet or other heavy pan over medium high heat. Pour the olive oil into the pan. Season the steaks on both sides with salt and pepper. Place the steaks in a single layer in the pan. Cook for 4-5 minutes per side or until browned. Use a thermometer to cook the steak to your desired level of doneness. I recommend cooking to medium which is 145 degrees F. While the steak is cooking, place the butter in a bowl along with the garlic, herbs, salt and pepper. Stir to combine. Let the steaks rest for at least 5 minutes off the heat. Place a dollop of butter on top of each steak. Slice the steak. Garnish with additional fresh herbs if desired, then serve."
+  },
+  {
+      "category": "Vegetarian",
+      "meal": "Vegetarian Stuffed Peppers",
+      "ingredientList": [
+        {
+         "items1": "Red Bell Pepper",
+         "items2": "Olive Oil",
+         "items3": "Yellow Onion",
+         "items4": "Salt",
+         "items5": "White Rice",
+         "items6": "Vegetable Broth",
+         "items7": "Diced Tomatoes",
+         "items8": "Green Onions",
+         "items9": "Taco Seasoning",
+         "items10": "Black Beans",
+         "items11": "Corn",
+         "items12": "Pepper Jack Cheese",
+         "items13": "Cilantro"
+        }
+        ],
+      "measurement": [
+        {
+         "size1": "4 Red Bell Pepper",
+         "size2": "1 tablespoon Olive Oil",
+         "size3": "1/2 Yellow Onion",
+         "size4": "1 teaspoon Salt",
+         "size5": "1 cup uncooked White Rice",
+         "size6": "1 2/3 Vegetable Broth",
+         "size7": "13.5 ounce Diced Tomatoes",
+         "size8": "3 Green Onions",
+         "size9": "2 tablespoon Taco Seasoning",
+         "size10": "13.5 ounce Black Beans",
+         "size11": "1 cup Corn",
+         "size12": "1 cup shredded Pepper Jack Cheese",
+         "size13": "1/4 teaspoon Cilantro"
+        }
+        ],
+      "instructions": "Preheat the oven to 400°F with a rack in the center position. Grease a 9 x 13-inch baking dish with olive oil. Trim, deseed, and dice one of the bell peppers. Halve the remaining bell peppers lengthwise, keeping the stems intact as much as possible. Discard the seeds and ribs. Heat the oil in a large skillet over medium heat. Once the oil is glistening, add the onion and cook, stirring, until just softened, about 4 minutes. Stir in the rice and salt and cook for about 3 minutes more. Stir in the broth, tomatoes, green onions, taco seasoning, and bell pepper.Bring the rice mixture to a boil. Reduce the heat, cover, and simmer until the rice is tender, about 25 minutes. Stir in black beans and corn, until fully combined and warmed through. Arrange the peppers in the prepared baking dish and fill them with the rice mixture, dividing evenly. Top with cheese. Bake, uncovered, until cheese is bubbling and golden brown, about 40 minutes. Sprinkle with cilantro, serve."
+  },
+  {
+    "category": "",
+    "meal": "",
+    "ingredientList": [
+      {
+        "items1": "String",
+        "items2": "",
+        "items3": "",
+        "items4": "",
+        "items5": "",
+        "items6": "",
+        "items7": "",
+        "items8": "",
+        "items9": "",
+        "items10": "",
+        "items11": "",
+        "items12": "",
+        "items13": ""
+       }
+       ],
+     "measurement": [
+       {
         "size1": "String",
         "size2": "",
         "size3": "",
@@ -324,22 +419,163 @@
         "size11": "",
         "size12": "",
         "size13": ""
-        }
+       }
+      ],
+    "instructions": ""
+  },
+  {
+      "category": "",
+      "meal": "",
+      "ingredientList": [
+        {
+          "items1": "String",
+          "items2": "",
+          "items3": "",
+          "items4": "",
+          "items5": "",
+          "items6": "",
+          "items7": "",
+          "items8": "",
+          "items9": "",
+          "items10": "",
+          "items11": "",
+          "items12": "",
+          "items13": ""
+         }
+         ],
+       "measurement": [
+         {
+          "size1": "String",
+          "size2": "",
+          "size3": "",
+          "size4": "",
+          "size5": "",
+          "size6": "",
+          "size7": "",
+          "size8": "",
+          "size9": "",
+          "size10": "",
+          "size11": "",
+          "size12": "",
+          "size13": ""
+         }
         ],
-      "instructions": "Preheat a grill for high heat. Mix the ground beef, egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and garlic in a large bowl using your hands. Form the mixture into 8 hamburger patties.Lightly oil the grill grate. Grill patties until browned and no longer pink, about 5 minutes per side."
+      "instructions": ""
   },
   {
     "category": "",
     "meal": "",
     "ingredientList": [
       {
-       "items": "String" 
-      }
+        "items1": "String",
+        "items2": "",
+        "items3": "",
+        "items4": "",
+        "items5": "",
+        "items6": "",
+        "items7": "",
+        "items8": "",
+        "items9": "",
+        "items10": "",
+        "items11": "",
+        "items12": "",
+        "items13": ""
+       }
+       ],
+     "measurement": [
+       {
+        "size1": "String",
+        "size2": "",
+        "size3": "",
+        "size4": "",
+        "size5": "",
+        "size6": "",
+        "size7": "",
+        "size8": "",
+        "size9": "",
+        "size10": "",
+        "size11": "",
+        "size12": "",
+        "size13": ""
+       }
       ],
-    "measurement": [
+    "instructions": ""
+  },
+  {
+      "category": "",
+      "meal": "",
+      "ingredientList": [
+        {
+          "items1": "String",
+          "items2": "",
+          "items3": "",
+          "items4": "",
+          "items5": "",
+          "items6": "",
+          "items7": "",
+          "items8": "",
+          "items9": "",
+          "items10": "",
+          "items11": "",
+          "items12": "",
+          "items13": ""
+         }
+         ],
+       "measurement": [
+         {
+          "size1": "String",
+          "size2": "",
+          "size3": "",
+          "size4": "",
+          "size5": "",
+          "size6": "",
+          "size7": "",
+          "size8": "",
+          "size9": "",
+          "size10": "",
+          "size11": "",
+          "size12": "",
+          "size13": ""
+         }
+        ],
+      "instructions": ""
+  },
+  {
+    "category": "",
+    "meal": "",
+    "ingredientList": [
       {
-       "sizes": "String"
-      }
+        "items1": "String",
+        "items2": "",
+        "items3": "",
+        "items4": "",
+        "items5": "",
+        "items6": "",
+        "items7": "",
+        "items8": "",
+        "items9": "",
+        "items10": "",
+        "items11": "",
+        "items12": "",
+        "items13": ""
+       }
+       ],
+     "measurement": [
+       {
+        "size1": "String",
+        "size2": "",
+        "size3": "",
+        "size4": "",
+        "size5": "",
+        "size6": "",
+        "size7": "",
+        "size8": "",
+        "size9": "",
+        "size10": "",
+        "size11": "",
+        "size12": "",
+        "size13": ""
+       }
       ],
     "instructions": ""
   },
@@ -358,694 +594,4 @@
         ],
       "instructions": ""
   },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  },
-  {
-    "category": "",
-    "meal": "",
-    "ingredientList": [
-      {
-       "items": "String" 
-      }
-      ],
-    "measurement": [
-      {
-       "sizes": "String"
-      }
-      ],
-    "instructions": ""
-  },
-  {
-      "category": "",
-      "meal": "",
-      "ingredientList": [
-        {
-         "items": "String" 
-        }
-        ],
-      "measurement": [
-        {
-         "sizes": "String"
-        }
-        ],
-      "instructions": ""
-  }
-]
+  
