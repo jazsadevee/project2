@@ -1,93 +1,245 @@
 [
   {
-    "category": "",
-    "meal": "",
+    "category": "Chicken",
+    "meal": "Creamy Garlic Parmesan Chicken",
     "ingredientList": [
       {
-       "items": "String" 
+       "items1": "chicken breast", 
+       "items2": "Chicken broth",
+       "items3": "Cream",
+       "items4": "Garlic",
+       "items5": "Garlic Powder",
+       "items6": "Salt",
+       "items7": "Pepper",
+       "items8": "Olive Oil",
+       "items9": "Butter",
+       "items10": "Flour",
+       "items11": "Parmesan Cheese",
+       "items12": "Parsley"
       }
       ],
     "measurement": [
       {
-       "sizes": "String"
+       "size1": "2 Chicken Breasts",
+       "size2": "1/2 cup Chicken Broth",
+       "size3": "1 cup Heavy Cream",
+       "size4": "3 Cloves Garlic",
+       "size5": "1/2 teaspoon Garlic Powder",
+       "size6": "1/4 teaspoon Salt",
+       "size7": "1/4 teaspoon Pepper", 
+       "size8": "1 tablespoon Olive Oil", 
+       "size9": "1 tablespoon Butter", 
+       "size10": "1 tablespoon flour",
+       "size11": "1/2 cup Parmesan Cheese",    
+       "size12": "1 tablespoon Parsley"
       }
       ],
-    "instructions": ""
+    "instructions": "Cut the chicken breasts in half lengthwise to make four smaller cutlets. Season with salt, pepper, and garlic powder. Pan fry it until it's cooked through. This will take about 5-6 minutes per side. Take the chicken out of the pan, and transfer it to a plate. In the same skillet, add the flour and garlic and cook for a minute. Scrape up the brown bits. Whisk in the broth, and then stir in the cream. Let it gently bubble, and then take it off the heat and put in the parmesan and combine until melted in. Add the chicken back to the pan, spoon the sauce over top and chopped parsley if desired, and serve it right away."
   },
   {
-      "category": "",
-      "meal": "",
+      "category": "Chicken",
+      "meal": "Bourbon Chicken",
       "ingredientList": [
         {
-         "items": "String" 
+         "items1": "Chicken Breasts", 
+         "items2": "Chicken Broth",
+         "items3": "apple cider vinegar",
+         "items4": "bourbon",
+         "items5": "ketchup",
+         "items6": "cornstarch",
+         "items7": "garlic",
+         "items8": "salt",
+         "items9": "pepper",
+         "items10": "oil",
+         "items11": "soy sauce",
+         "items12": "apple juice",
+         "items13": "brown sugar",
+         "items14": "ground ginger",
+         "items15": "onion powder",
+         "items16": "crushed red pepper flakes"
         }
         ],
       "measurement": [
         {
-         "sizes": "String"
+          "size1": "3 pounds Chicken Breasts", 
+          "size2": "1 cup Chicken Broth",
+          "size3": "2 tablespoons Apple Cider Vinegar",
+          "size4": "1/4 cup Bourbon",
+          "size5": "1/3 cup ketchup",
+          "size6": "4 tablespoons Cornstarch",
+          "size7": "4 Cloves Garlic",
+          "size8": "1/2 teaspoon Salt",
+          "size9": "1/2 teaspoon Pepper",
+          "size10": "1/4 cup Oil",
+          "size11": "2/3 cup Soy Sauce",
+          "size12": "1/3 cup Apple Juice",
+          "size13": "1 cup Brown Sugar",
+          "size14": "1/2 teaspoon Ground Ginger",
+          "size15": "1/2 teaspoon Onion Powder",
+          "size16": "1/2 teaspoon Crushed Red Pepper flakes"
         }
         ],
-      "instructions": ""
+      "instructions": "Start by chopping your chicken breasts into 1-inch pieces and coating them in 4 tablespoons of cornstarch tossed with salt and pepper. The cornstarch will help make the chicken crispy and will help thicken the bourbon sauce. Brown the cornstarch-covered chicken breast pieces on both sides in a skillet with oil. You might need to do this in two batches if you don't have a large skillet. Make sure your oil is hot to get a nice golden-brown coating instead of simply steaming the chicken. Make the Bourbon Sauce! Add the minced garlic to the skillet and sauté for about 30 seconds. Then add the rest of the ingredients and whisk in the cornstarch to make sure no clumps remain. Bring the mixture to a light boil, carefully add the chicken back in, and let the sauce simmer for about 10 minutes until it reduces in half."
   },
   {
-    "category": "",
-    "meal": "",
+    "category": "Chicken",
+    "meal": "Oven Baked Chicken",
     "ingredientList": [
       {
-       "items": "String" 
+       "items1": "Chicken Breasts", 
+       "items2": "Butter", 
+       "items3": "Olive Oil", 
+       "items4": "Brown Sugar", 
+       "items5": "Salt", 
+       "items6": "Pepper", 
+       "items7": "Garlic Powder", 
+       "items8": "Onion Powder", 
+       "items9": "Paprika",
+       "items10": "Italian Seasoning"
       }
       ],
     "measurement": [
       {
-       "sizes": "String"
+        "size1": "4 Chicken Breasts", 
+        "size2": "1 tablespoon Butter", 
+        "size3": "2 teaspoon Olive Oil", 
+        "size4": "1 1/2 teaspoon Brown Sugar", 
+        "size5": "1/2 teaspoon Salt", 
+        "size6": "1/2 teaspoon Pepper", 
+        "size7": "1/4 teaspoon Garlic Powder", 
+        "size8": "1/4 teaspoon Onion Powder", 
+        "size9": "1 teaspoon Paprika",
+        "size10": "1/4 teaspoon Italian Seasoning"
       }
       ],
-    "instructions": ""
+    "instructions": "Preheat oven to 425°F/220°C. Pound chicken to 1.5cm / 0.6″ at the thickest part. Mix Seasoning. Line tray with foil and baking / parchment paper. Place chicken upside down on tray. Drizzle chicken with about 1 tsp oil. Rub over with fingers. Sprinkle with Seasoning. Flip chicken. Drizzle with 1 tsp oil, rub with fingers, sprinkle with Seasoning, covering as much of the surface area as you can. Place butter throughout the tray. Bake 18 minutes, or until surface is golden per photos and video, or internal temperature is 165°F/75°C using a meat thermometer. Remove from oven and immediately transfer chicken to serving plates."
   },
   {
-      "category": "",
-      "meal": "",
+      "category": "Chicken",
+      "meal": "Honey Garlic Chicken",
       "ingredientList": [
         {
-         "items": "String" 
+          "items1": "Chicken Thigh", 
+          "items2": "Chicken Stock", 
+          "items3": "Cornstarch", 
+          "items4": "Butter", 
+          "items5": "Salt", 
+          "items6": "Pepper", 
+          "items7": "Mince Garlic", 
+          "items8": "Oil", 
+          "items9": "Rice Vinegar",
+          "items10": "Honey",
+          "items11": "Soy Sauce",
+          "items12": "Parsley"
         }
         ],
       "measurement": [
         {
-         "sizes": "String"
+          "size1": "8 Chicken Thigh", 
+          "size2": "1/3 cup Chicken Stock", 
+          "size3": "2 tablespoon Cornstarch", 
+          "size4": "1 tablespoon Butter", 
+          "size5": "1/2 teaspoon Salt", 
+          "size6": "1/2 teaspoon Pepper", 
+          "size7": "4 cloves Mince Garlic", 
+          "size8": "2 tablespoon Oil", 
+          "size9": "1 tablespoon Rice Vinegar",
+          "size10": "1/3 cup Honey",
+          "size11": "1 tablespoon Soy Sauce",
+          "size12": "1 tablespoon Parsley"
         }
         ],
-      "instructions": ""
+      "instructions": "Place the chicken thighs in a bowl and add the cornstarch, salt and pepper. Toss the chicken in the cornflour until fully coated. Heat the oil in a large frying pan over a high heat. Add the chicken thighs, and cook on one side until golden brown (about 4-5 minutes), then turn over and cook for a further 2 minutes. Add the butter to the pan, let it melt, then add the garlic and stir together. Turn the heat down to medium so the garlic doesn't burn, then make the sauce. To make the sauce, combine the honey, stock, rice vinegar and light soy sauce in a bowl and stir together. Add the sauce to the pan. Turn the heat up and bring the sauce to the boil, then simmer for 4-5 minutes until the sauce reduces and thickens, and the chicken is cooked through (and no longer pink in the middle). Sprinkle on the chopped parsley. "
   },
   {
-    "category": "",
-    "meal": "",
+    "category": "Beef",
+    "meal": "Mongolian Beef",
     "ingredientList": [
       {
-       "items": "String" 
+       "items1": "Sirloin Steak",
+       "items2": "Cornstarch",
+       "items3": "Canola Oil",
+       "items4": "Salt",
+       "items5": "Ginger",
+       "items6": "Garlic",
+       "items7": "Chili Oil",
+       "items8": "Soy Sauce",
+       "items9": "Water",
+       "items10": "Brown Sugar",
+       "items11": "Scallion"
       }
       ],
     "measurement": [
       {
-       "sizes": "String"
+      "size1": "1 1/2 pound Sirloin Steak",
+      "size2": "1/3 cup Cornstarch",
+      "size3": "1/4 cup Canola Oil",
+      "size4": "1/4 teaspoon Salt",
+      "size5": "1 tablespoon Ginger",
+      "size6": "4 cloves Garlic",
+      "size7": "Chili Oil",
+      "size8": "1/3 cup Soy Sauce",
+      "size9": "1/2 cup Water",
+      "size10": "1/3 cup Brown Sugar",
+      "size11": "8 stalks Scallion"
       }
       ],
-    "instructions": ""
+    "instructions": "Slice the steak in ¼-inch slices. Lay the slices flat, cover with plastic wrap and use a meat pounder to flatten the meat. Put the meat in a ziploc bag and add the cornstarch. Massage the steak and cornstarch together to make sure each piece is fully coated. Pour the canola oil into a large frying pan, and heat on medium high heat. dd the steak to the pan in a single layer and cook for 30 seconds per side (1 minute total). Cook the steak in batches rather than over-crowding the pan. Remove the steak from the pan as it finishes cooking, set it aside on a plate, then sprinkle with salt. Next, add the ginger, garlic, and chili oil or red pepper flakes (if desired for more spice) to the pan and sauté for 10-15 seconds. Stir in soy sauce, water and brown sugar and bring the mixture to a boil. Fold the steak back in and let the sauce thicken for 20-30 seconds. Turn off the heat, add the green onions, and stir to combine."
   },
   {
-      "category": "",
-      "meal": "",
+      "category": "Beef",
+      "meal": "Beef Stew",
       "ingredientList": [
         {
-         "items": "String" 
+         "items1": "Sea Salt",
+         "items2": "Rosemary", 
+         "items3": "Thyme", 
+         "items4": "Paprika", 
+         "items5": "Pepper", 
+         "items6": "Vegetable Oil", 
+         "items7": "Beef Stew Meat", 
+         "items8": "Yellow Onion", 
+         "items9": "Celery", 
+         "items10": "Garlic", 
+         "items11": "Tomato Paste", 
+         "items12": "Red Wine", 
+         "items13": "Beef Broth", 
+         "items14": "Worcestershire Sauce", 
+         "items15": "Bay Leaf", 
+         "items16": "Yellow or Red Potatoes", 
+         "items17": "Carrots", 
+         "items18": "Peas", 
+         "items19": "Italian Parsley", 
+         "items20": "Water", 
+         "items21": "Cornstarch" 
         }
         ],
       "measurement": [
         {
-         "sizes": "String"
+          "size1": "1 1/2 teaspoon Sea Salt",
+          "size2": "1 teaspoon Rosemary", 
+          "size3": "1 teaspoon Thyme", 
+          "size4": "1 teaspoon Paprika", 
+          "size5": "1/2 teaspoon Pepper", 
+          "size6": "2 tablespoon Vegetable Oil", 
+          "size7": "2 pounds Beef Stew Meat", 
+          "size8": "1 cup Yellow Onion", 
+          "size9": "2 stalks Celery", 
+          "size10": "1 teaspoon Minced Garlic", 
+          "size11": "3 tablespoon Tomato Paste", 
+          "size12": "1 cup Red Wine", 
+          "size13": "2 cups Beef Broth", 
+          "size14": "1 tablespoon Worcestershire Sauce", 
+          "size15": "1 Bay Leaf", 
+          "size16": "1 pound Yellow or Red Potatoes", 
+          "size17": "4 Carrots", 
+          "size18": "1 cup Peas", 
+          "size19": "1/4 cup Italian Parsley", 
+          "size20": "1/4 cup Water", 
+          "size21": "2 tablespoon Cornstarch" 
         }
         ],
-      "instructions": ""
+      "instructions": "Combine the seasoning mix ingredients in a small bowl. Cut any large pieces of stew meat into smaller bite-size pieces, if necessary. Heat the vegetable oil in a large Dutch oven over MEDIUM-HIGH heat. Add about half of the meat to the pan, or as much as you can without overcrowding the pan. Sprinkle 2 teaspoons of the spice mixture over the meat and sauté the beef until nicely browned. Use a slotted spoon to transfer the beef to a dish and set aside. Repeat with the remaining beef, adding additional oil if needed, and seasoning with 2 more teaspoons of the spice mixture. Reserve remaining spice mixture for later. Add additional oil to pan if needed and add the onion, celery, and garlic. Cook, stirring occasionally, until softened. Add the tomato paste and stir until well combined. Add the red wine and increase the heat under the pot to bring the mixture to a boil. Add the beef broth, Worcestershire sauce, remaining spice mix and the bay leaf. Add the beef and all the juices that have accumulated back to pot and bring to a boil. Reduce heat to LOW, cover, and simmer for 1 ½ hours, or until the beef is fork tender. Add the potatoes and carrots and raise the heat under the pot to bring the liquid to a boil. Reduce the heat to LOW, cover and simmer for another 30 to 40 minutes until the veggies are fork tender. Stir in the frozen peas and parsley. Combine the water and cornstarch in a measuring cup or small bowl and stir it into the beef stew. Continue cooking, uncovered, until thickened. Discard the bay leaf before serving."
   },
   {
     "category": "",
