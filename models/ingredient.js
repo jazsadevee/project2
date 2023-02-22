@@ -58,4 +58,4 @@ const ingredientSchema = new mongoose.Schema({
 // eslint-disable-next-line no-unused-vars
 const Ingredient = mongoose.model('Ingredient', ingredientSchema)
 
-export default ngredient
+export default Ingredient
