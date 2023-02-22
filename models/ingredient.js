@@ -57,3 +57,5 @@ const ingredientSchema = new mongoose.Schema({
 // @ts-ignore
 // eslint-disable-next-line no-unused-vars
 const Ingredient = mongoose.model('Ingredient', ingredientSchema)
+
+export default ngredient

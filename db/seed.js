@@ -1,6 +1,19 @@
-// @ts-ignore
-// eslint-disable-next-line no-unused-vars
-import Recipes from "./Recipes.json" assert { type: "json" }
-import ingredient from './'
+import mongoose from "mongoose"
+import db from "../connections.js";
+import Meals from "./Meals.json" assert { type: "json" }
+// import Ingredient from "../models/ingredient.js" 
+import Recipe from "../models/recipe.js"
+
+
+const insertData = async () => {
+  await db.dropDatabase();
+
+  await Recipe.create(Recipe);
+  // await Ingredient.create(Ingredient);
+
+  await db.close();
+};
+
+insertData();
 
 

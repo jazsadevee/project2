@@ -1,7 +1,19 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
-const connection_string = 'mongodb://127.0.0.1:27017/'
+mongoose.set("returnOriginal", false);
+mongoose.set('strictQuery', true);
 
-mongoose.connect(connection_string, {})
+mongoose.connect("mongodb://127.0.0.1:27017/meals")
+.catch((err) => {
+  console.log(`Error connection to MongoDB: ${err.message}`);
+});
 
-export default mongoose
+mongoose.connection.on("disconnected", () => {
+  console.log("Disconnected from MongoDB!");
+});
+
+mongoose.connection.on("error", (err) => {
+  console.log(`MongoDB connection error: ${err}`);
+});
+
+export default mongoose.connection;
