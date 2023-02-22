@@ -242,34 +242,91 @@
       "instructions": "Combine the seasoning mix ingredients in a small bowl. Cut any large pieces of stew meat into smaller bite-size pieces, if necessary. Heat the vegetable oil in a large Dutch oven over MEDIUM-HIGH heat. Add about half of the meat to the pan, or as much as you can without overcrowding the pan. Sprinkle 2 teaspoons of the spice mixture over the meat and sauté the beef until nicely browned. Use a slotted spoon to transfer the beef to a dish and set aside. Repeat with the remaining beef, adding additional oil if needed, and seasoning with 2 more teaspoons of the spice mixture. Reserve remaining spice mixture for later. Add additional oil to pan if needed and add the onion, celery, and garlic. Cook, stirring occasionally, until softened. Add the tomato paste and stir until well combined. Add the red wine and increase the heat under the pot to bring the mixture to a boil. Add the beef broth, Worcestershire sauce, remaining spice mix and the bay leaf. Add the beef and all the juices that have accumulated back to pot and bring to a boil. Reduce heat to LOW, cover, and simmer for 1 ½ hours, or until the beef is fork tender. Add the potatoes and carrots and raise the heat under the pot to bring the liquid to a boil. Reduce the heat to LOW, cover and simmer for another 30 to 40 minutes until the veggies are fork tender. Stir in the frozen peas and parsley. Combine the water and cornstarch in a measuring cup or small bowl and stir it into the beef stew. Continue cooking, uncovered, until thickened. Discard the bay leaf before serving."
   },
   {
-    "category": "",
-    "meal": "",
+    "category": "Beef",
+    "meal": "Meatloaf",
     "ingredientList": [
       {
-       "items": "String" 
+       "items1": "Ground Beef", 
+       "items2": "Onion",
+       "items3": "Eggs",
+       "items4": "Garlic",
+       "items5": "ketchup",
+       "items6": "Parsley",
+       "items7": "Breadcrumbs",
+       "items8": "Milk",
+       "items9": "Salt",
+       "items10": "Italian Seasoning",
+       "items11": "Pepper",
+       "items12": "Paprika",
+       "items13": "White Vinegar",
+       "items14": "Brown Sugar",
+       "items15": "Garlic Powder",
+       "items16": "Onion Powder"
       }
       ],
     "measurement": [
       {
-       "sizes": "String"
+        "size1": "2 pounds Ground Beef", 
+        "size2": "1 med Onion",
+        "size3": "2 large Eggs",
+        "size4": "3 Garlic cloves",
+        "size5": "3 tablespoon ketchup",
+        "size6": "3 tablespoon Parsley",
+        "size7": "3/4 cup Breadcrumbs",
+        "size8": "1/3 cup Milk",
+        "size9": "1 1/2 teaspoon Salt",
+        "size10": "1 1/2 teaspoon Italian Seasoning",
+        "size11": "1/4 teaspoon Pepper",
+        "size12": "1/2 teaspoon Paprika",
+        "size13": "1 1/2 teaspoon White Vinegar",
+        "size14": "2 1/2 teaspoon Brown Sugar",
+        "size15": "1 teaspoon Garlic Powder",
+        "size16": "1/2 teaspoon Onion Powder",
+        "size17": "3/4 cup Ketchup",
+        "size18": "1/4 teaspoon Pepper",
+        "size19": "1/4 teaspoon Salt"
       }
       ],
-    "instructions": ""
+    "instructions": "Line a 9”x5” loaf pan with parchment paper and preheat oven to 375°F. In a large bowl, add all of the ingredients for the meatloaf. Mix well to combine. Add meat to the loaf pan, gently press meat down and shape evenly and bake meatloaf at 375˚F for 40 minutes. In a small bowl, mix all of the ingredients together for the sauce. Spread the sauce over meatloaf then return to oven and bake additional 15-20 minutes or until the internal temperature is 160˚F. Rest meatloaf 10 minutes before slicing. Drizzle with baking juices from the pan."
   },
   {
-      "category": "",
-      "meal": "",
+      "category": "Beef",
+      "meal": "Hamburgers",
       "ingredientList": [
         {
-         "items": "String" 
+         "items1": "Ground Beef",
+         "items2": "Egg",
+         "items3": "Breadcrumbs",
+         "items4": "Evaporated Milk",
+         "items5": "Worcestershire Sauce",
+         "items6": "Cayenne Pepper",
+         "items7": "garlic",
+         "items8": "",
+         "items9": "",
+         "items10": "",
+         "items11": "",
+         "items12": "",
+         "items13": ""
         }
         ],
       "measurement": [
         {
-         "sizes": "String"
+        "size1": "String",
+        "size2": "",
+        "size3": "",
+        "size4": "",
+        "size5": "",
+        "size6": "",
+        "size7": "",
+        "size8": "",
+        "size9": "",
+        "size10": "",
+        "size11": "",
+        "size12": "",
+        "size13": ""
         }
         ],
-      "instructions": ""
+      "instructions": "Preheat a grill for high heat. Mix the ground beef, egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and garlic in a large bowl using your hands. Form the mixture into 8 hamburger patties.Lightly oil the grill grate. Grill patties until browned and no longer pink, about 5 minutes per side."
   },
   {
     "category": "",
