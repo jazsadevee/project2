@@ -1,14 +1,13 @@
 import mongoose from 'mongoose'
+const Schema = mongoose.Schema;
 
-const newRecipeSchema = new mongoose.Schema({
+let newRecipe = new Schema({
   category: String,
   meal: String,
   vegetarian: Boolean,
   instructions: String,
   userName: String,
-})
+});
 
 
-// @ts-ignore
-// eslint-disable-next-line no-unused-vars
-const NewRecipe = mongoose.model('NewRecipe', newRecipeSchema)
+export default mongoose.model("userCreated", newRecipe);

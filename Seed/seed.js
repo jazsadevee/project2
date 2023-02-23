@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-import db from "../connections.js";
+import db from "../db/connections.js";
 import Meals from "./Meals.json" assert { type: "json" }
 // import Ingredient from "../models/ingredient.js" 
 import Recipe from "../models/recipe.js"

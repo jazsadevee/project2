@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
+const Schema = mongoose.Schema;
 
-const recipeSchema = new mongoose.Schema({
+let meal = new Schema({
   category: String,
   meal: String,
   instructions: String,
@@ -19,14 +20,14 @@ const recipeSchema = new mongoose.Schema({
       items11: String,
       items12: String,
       items13: String,
-      items14: String, 
-      items15: String, 
-      items16: String, 
-      items17: String, 
-      items18: String, 
-      items19: String, 
-      items20: String, 
-      items21: String, 
+      items14: String,
+      items15: String,
+      items16: String,
+      items17: String,
+      items18: String,
+      items19: String,
+      items20: String,
+      items21: String,
     }
   ],
   measurement: [
@@ -54,11 +55,7 @@ const recipeSchema = new mongoose.Schema({
       size21: String,
     }
   ]
-})
+});
 
 
-// @ts-ignore
-// eslint-disable-next-line no-unused-vars
-const Recipes = mongoose.model('Recipes', recipeSchema)
-
-export default Recipes
+export default mongoose.model("recipe", meal);
