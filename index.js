@@ -20,24 +20,4 @@ app.use(lifecycle({
   }
 }))
 
-// Feel free to use a router and move this elsewhere.
-
-// app.get('/api', async (request, response) => {
-//   const category = request.query
-//   response.json(category)
-// })
-
-// app.get('/', async (request, response) => {
-//   const 
-// })
-
-// app.get('/api', async (req, res) => {
-//   await Todo.insertMany([{ text: (new Date()).toISOString() }])
-//   const todos = await Todo.find()
-
-//   console.log(process.env.DATABASE_URL)
-//   res.json({ message: 'Hello World', todos })
-// })
-
-// Don't use app.listen. Instead export app.
 export default app
