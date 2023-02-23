@@ -1,10 +1,13 @@
 import express, { response } from 'express'
 import mongoose from 'mongoose'
-import lifecycle from './api/middleware/lifecycle.js'
-
+import lifecycle from './middleware/lifecycle.js'
+import recipe from '../models/recipe.js'
+import { Router } from "express";
+import mealsRoutes from "../route/meals.js";
 
 const app = express()
 
+const router = Router();
 
 app.use(lifecycle({
   async setup() {
@@ -19,5 +22,14 @@ app.use(lifecycle({
     await mongoose.disconnect()
   }
 }))
+
+// app.get('/api', async (req, res) => {
+//   // console.log(process.env.DATABASE_URL)
+//   const recipes = await recipe.find();
+//   console.log(recipes);
+//   res.json(recipes);
+// })
+
+router.use("/api", mealsRoutes);
 
 export default app

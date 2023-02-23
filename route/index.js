@@ -9,6 +9,6 @@ router.get('/', (request, response) => {
   response.send("API root")
 });
 
-router.use("/meal", mealsRoutes);
+router.use("/api", mealsRoutes);
 
 export default router; 

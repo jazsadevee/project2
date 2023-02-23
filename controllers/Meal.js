@@ -7,6 +7,7 @@ export const getMeal = async (request, response) => {
   try {
     const Recipe = await recipe.find();
     response.json(Recipe);
+    console.log("running");
   } catch (error) {
     console.error(error);
     response.status(500).json({ error: error.message });
