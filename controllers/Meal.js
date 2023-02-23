@@ -1,14 +1,7 @@
-// import Character from "../models/Character.js";
 import Recipe from "../models/recipe.js"
-// import { response } from "express";
-
-export const getMeal = async (request, response) => {
-
-}
 
 
-
-// export const getCharacters = async (req, res) => {
+// export const getMeal = async (req, res) => {
 //   try {
 //     const characters = await Character.find();
 //     res.json(characters);
