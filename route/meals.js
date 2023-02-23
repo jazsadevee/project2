@@ -1,9 +1,16 @@
+import { Router } from "express";
+import * as controllers from "../controllers/Meal.js"
 
-// router.get("/", controllers.getCharacters);
-// router.get("/:id", controllers.getCharacter);
-// router.post("/", controllers.createCharacter);
-// router.put("/:id", controllers.updateCharacter);
-// router.delete("/:id", controllers.deleteCharacter);
 
-// export default router;
+const router = Router();
+
+router.get("/", controllers.getMeal);
+
+router.post("/", controllers.createMeal);
+
+router.put("/", controllers.updateMeal);
+
+router.delete("/", controllers.deleteMeal);
+
+export default Router;
 

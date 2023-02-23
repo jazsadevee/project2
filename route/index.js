@@ -1,12 +1,14 @@
 import { Router } from "express";
-import mealRoute from "./meals.js";
+import * as controller from "../controllers/Meal.js";
 
 
 const router = Router();
 
 
 router.get('/', (request, response) => {
-  response.send("")
+  response.send("API root")
 });
 
 router.use("/meal", mealRoute);
+
+export default router; 
