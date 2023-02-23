@@ -1,13 +1,13 @@
 import db from "../db/connections.js";
 import Meals from "./Meals.json" assert { type: "json" }
 // import Ingredient from "../models/ingredient.js" 
-import Recipe from "../models/recipe.js"
+import Recipe1 from "../models/recipe.js"
 
 
 const insertData = async () => {
   await db.dropDatabase();
   
-  await Recipe.insertMany(Meals);
+  await Recipe1.insertMany(Meals);
 
   // await Ingredient.create(Ingredient);
 

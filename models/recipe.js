@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 let meal = new Schema({
   category: String,
+  _id: String,
   meal: String,
   instructions: String,
   ingredientList: [
@@ -58,4 +59,4 @@ let meal = new Schema({
 });
 
 
-export default mongoose.model("recipe", meal);
+export default mongoose.model("Recipe1", meal);

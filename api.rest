@@ -9,8 +9,72 @@
 
 @baseUrl = {{host}}/api/
 
-
 GET {{baseUrl}}
 ###
 
 
+# @name GetRecipe
+
+GET {{baseUrl}}meal/Oven Baked Chicken
+###
+
+
+# @name CreateRecipe
+
+POST {{baseUrl}}/meal 
+Content-Type: application/json
+
+{
+   "category": "Vegetarian",
+   "meal": "Rice",
+   "ingredientList":[
+      {
+         "item": "rice"
+      }
+   ],
+   "measurement":[
+      {
+         "size": "1 cup"
+      }
+   ],
+   "vegetarian": true,
+   "instructions": "Boil",
+   "userName": "Me"
+}
+###
+
+
+# @name UpdateRecipe
+
+PATCH  {{meal}}/{{Id}}?update=New Recipe
+Content-Type: application/json
+
+{
+   "category": "Chicken",
+   "meal": "Deep Fried Chicken",
+   "ingredientList":[
+      {
+         "item": "chicken",
+         "item": "flour"
+      }
+   ],
+   "measurement":[
+      {
+         "size": "4 chickens",
+         "size": "3 cups"
+      }
+   ],
+   "vegetarian": false,
+   "instructions": "Fry twice",
+   "userName": "Jas"
+}
+###
+
+# @name EditRecipe
+
+PATCH {{meal}}/{{id}}?edit=Recipe
+###
+
+# @name DeleteRecipe
+DELETE {{DeleteRecipe}}/removeMeal  
+###

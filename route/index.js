@@ -1,14 +1,14 @@
-import { Router } from "express";
-import mealsRoutes from "./meals.js";
+// import { Router } from "express";
+// import mealsRoutes from "./meals.js";
 
 
-const router = Router();
+// const router = Router();
 
 
-router.get('/', (request, response) => {
-  response.send("API root")
-});
+// router.get('/', (request, response) => {
+//   response.send("API root")
+// });
 
-router.use("/api", mealsRoutes);
+// router.use("/api", mealsRoutes);
 
-export default router; 
+// export default router; 

@@ -1,12 +1,12 @@
 import { request, response } from "express";
-import recipe from "../models/recipe.js";
+import Recipe1 from "../models/recipe.js";
 
 
 
 export const getMeal = async (request, response) => {
   try {
-    const Recipe = await recipe.find();
-    response.json(Recipe);
+    const recipe = await Recipe1.find();
+    response.json(recipe);
     console.log("running");
   } catch (error) {
     console.error(error);
@@ -17,11 +17,11 @@ export const getMeal = async (request, response) => {
 
 export const getMeals = async (request, response) => {
   try {
-    const { meal } = request.params;
-    const Recipe = await recipe.findById(meal);
+    const meal = request.params.id;
+    const recipe = await Recipe1.find({ meal:request.params.id });
 
-    if (Recipe) {
-      return response.json(Recipe);
+    if (recipe) {
+      return response.json(recipe);
     }
 
     response.status(404).json({ message: "Recipe not found!" });
@@ -34,9 +34,9 @@ export const getMeals = async (request, response) => {
 
 export const createMeal = async (request, response) => {
   try {
-    const Recipes = new recipe(request.body);
-    await Recipes.save();
-    response.status(201).json(Recipes);
+    const recipes = new Recipe1(request.body);
+    await Recipe1.insertMany(recipes);
+    response.status(201).json(recipes);
   } catch (error) {
     console.error(error);
     response.status(500).json({ error: error.message });
@@ -46,9 +46,9 @@ export const createMeal = async (request, response) => {
 
 export const updateMeal = async (request, response) => {
   try {
-    const { meal } = response.params;
-    const Recipes = await recipe.findByIdAndUpdate(meal, request.body);
-    response.status(201).json(Recipes)
+    const { meal } = response.params.id;
+    const recipes = await Recipe1.findByIdAndUpdate({ meal:request.body.id });
+    response.status(201).json(recipes)
   } catch (error) {
     console.error(error);
     response.status(500).json({ error: error.message });
@@ -58,8 +58,8 @@ export const updateMeal = async (request, response) => {
 
 export const deleteMeal = async (request, response) => {
   try {
-    const { meal } = request.params;
-    const deleted = await recipe.findByIdAndDelete(meal);
+    const { id } = request.params.id;
+    const deleted = await Recipe1.findByIdAndDelete(id);
 
     if (deleted) {
       return response.status(200).send("Recipe deleted!")

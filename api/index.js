@@ -1,7 +1,7 @@
-import express, { response } from 'express'
+import express, { json, response } from 'express'
 import mongoose from 'mongoose'
 import lifecycle from './middleware/lifecycle.js'
-import recipe from '../models/recipe.js'
+import Recipe1 from '../models/recipe.js'
 import { Router } from "express";
 import mealsRoutes from "../route/meals.js";
 
@@ -22,14 +22,28 @@ app.use(lifecycle({
     await mongoose.disconnect()
   }
 }))
+app.use(express.json())
+app.use('/api', mealsRoutes)
+  
 
-// app.get('/api', async (req, res) => {
+app.post('/meal/:id', async (request, response) => {
+  const id = tryCastId(request.params.id)
+  
+ }) 
+  
+  
+//   async (req, res) => {
 //   // console.log(process.env.DATABASE_URL)
-//   const recipes = await recipe.find();
+//   const recipes = await Recipe1.find();
 //   console.log(recipes);
 //   res.json(recipes);
 // })
 
-router.use("/api", mealsRoutes);
+// app.listen(3000, function () {
+//   console.log('Example app listening on port 3000!');
+//  });
+
+// app.get('/api/:id')
+// mealsRoutes.use("/api", mealsRoutes);
 
 export default app
