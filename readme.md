@@ -10,15 +10,15 @@ Simple Chief is an app that will provide the user with a list of recipes based o
 ### MVP 
 
 - Choose an API with viable information for the app (build database to be used) 
-- Create routes for the backend.. ingredients, description, instructions and the name 
-- Create a drop down menu or navigational bar to choose between different recipes 
+- Create route & controller for the backend.. ingredients, description, instructions and the recipe name 
+- Create models for ingredients, description, instructions and the recipe names 
 
 ### Post MVP 
 
-- frontend CSS design 
-- drop down menu/navigational bar
+- frontend design 
+- drop down menu/navigational bar to choose or create recipes 
 - Animation for the page 
-- Create a Dessert section 
+- Create a Dessert section to database
 
 ## Weekly Goals
 
@@ -64,3 +64,4 @@ const newRecipeSchema = new mongoose.Schema({
 const NewRecipe = mongoose.model('NewRecipe', newRecipeSchema)
 
 ```
+
