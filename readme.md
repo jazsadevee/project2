@@ -27,6 +27,14 @@ Simple Chief is an app that will provide the user with a list of recipes based o
 - Thurday: complete nessesary code so the app is functional 
 - Friday: debug any imprefections from the code 
 
+
+| Route  |  HTTP Method | DB Action  | Description  |
+|---|---|---|---|
+| /api/Recipe  | GET  | INDEX  | Indexes all the Recipe  |
+| /api/Recipe  | POST | CREATE  | Create a Recipe  |
+| /api/Recipe/:meal  | GET  | SHOW  | Show a single Recipe  |
+| /api/Recipe/:meal  | PUT  | UPDATE  | Update a Recipe  |
+| /api/Recipe/:meal  | DELETE  | DELETE  | Delete a Recipe  |
 ### Data Model
 
 ```javascript
@@ -64,4 +72,3 @@ const newRecipeSchema = new mongoose.Schema({
 const NewRecipe = mongoose.model('NewRecipe', newRecipeSchema)
 
 ```
-
