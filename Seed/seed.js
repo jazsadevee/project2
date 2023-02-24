@@ -5,8 +5,9 @@ import Recipe1 from "../models/recipe.js"
 
 
 const insertData = async () => {
-  await db.dropDatabase();
+  // await db.dropDatabase();
   
+  await Recipe1.deleteMany();
   await Recipe1.insertMany(Meals);
 
   // await Ingredient.create(Ingredient);
