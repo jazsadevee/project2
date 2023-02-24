@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
 
-mongoose.connect(process.env.DATABASE_URL);
 
 mongoose.set("returnOriginal", false);
 mongoose.set('strictQuery', true);
 
-mongoose.connect("mongodb://127.0.0.1:27017/meals")
+// mongoose.connect("mongodb://127.0.0.1:27017/meals")
+mongoose.connect("process.env.DATABASE_URL")
 .catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
