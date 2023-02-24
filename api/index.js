@@ -26,10 +26,10 @@ app.use(express.json())
 app.use('/api', mealsRoutes)
   
 
-app.post('/meal/:id', async (request, response) => {
-  const id = tryCastId(request.params.id)
+// app.post('/meal/:id', async (request, response) => {
+//   const id = tryCastId(request.params.id)
   
- }) 
+//  }) 
   
   
 //   async (req, res) => {
