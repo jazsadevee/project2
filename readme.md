@@ -5,7 +5,8 @@
 
 Simple Chef is an app that will provide the user with a list of recipes based on the main ingredients.. i.e seafood, chicken, beef/steak, vegetarian, turkey or pork. It will provide a list of ingredients and instructions of the chosen meal. 
 
-### API: https://www.themealdb.com/api
+### API: 
+https://www.themealdb.com/api
 
 ### MVP 
 
@@ -51,10 +52,14 @@ const Recipe = mongoose.model('Recipe', recipeSchema)
 
 const ingredientSchema = new mongoose.Schema({
   ingredientList: [
-    items: String
+    items1: String,
+    items2: String,
+    items3: String
   ],
   measurement: [
-    sizes: String
+    sizes1: String,
+    sizes2: String,
+    sizes3: String
   ]
 })
 
