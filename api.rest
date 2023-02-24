@@ -21,7 +21,7 @@ GET {{baseUrl}}meal/Oven Baked Chicken
 
 # @name CreateRecipe
 
-POST {{baseUrl}}meal 
+POST {{baseUrl}}meal
 Content-Type: application/json
 
 {
@@ -29,12 +29,12 @@ Content-Type: application/json
    "meal": "Rice",
    "ingredientList":[
       {
-         "item": "rice"
+         "items1": "rice"
       }
    ],
    "measurement":[
       {
-         "size": "1 cup"
+         "size1": "1 cup"
       }
    ],
    "vegetarian": true,
@@ -46,12 +46,12 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f7c8543dc311a1566a6356
+PATCH  {{baseUrl}}meal/63f8e9aed6c073daa8ae33ce
 Content-Type: application/json
 
 {
-   "category": "Chicken",
-   "meal": "Deep Fried Chicken",
+   "category": "test",
+   "meal": "Test Meal",
    "ingredientList":[
       {
          "item": "chicken",

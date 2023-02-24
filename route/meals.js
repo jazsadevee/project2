@@ -9,7 +9,7 @@ mealsRoutes.get("/meal/:id", controllers.getMeals);
 
 mealsRoutes.post("/meal", controllers.createMeal);
 
-mealsRoutes.patch("/meal/:id", controllers.updateMeal);
+mealsRoutes.patch("/meal/:id", controllers.updateMealById);
 mealsRoutes.delete("/meal/:id", controllers.deleteMeal);
 
 export default mealsRoutes;

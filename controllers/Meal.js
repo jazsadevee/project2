@@ -18,7 +18,7 @@ export const getMeal = async (request, response) => {
 export const getMeals = async (request, response) => {
   try {
     const meal = request.params.id;
-    const recipe = await Recipe1.find({ meal:request.params.id });
+    const recipe = await Recipe1.find({ meal: request.params.id });
 
     if (recipe) {
       return response.json(recipe);
@@ -34,9 +34,10 @@ export const getMeals = async (request, response) => {
 
 export const createMeal = async (request, response) => {
   try {
-    const recipes = new Recipe1(request.body);
-    await Recipe1.insertMany(recipes);
-    response.status(201).json(recipes);
+    // const recipes = new Recipe1(request.body);
+    const meal = await Recipe1.create(request.body);
+    console.log(request);
+    response.status(201).json(meal);
   } catch (error) {
     console.error(error);
     response.status(500).json({ error: error.message });
@@ -44,10 +45,10 @@ export const createMeal = async (request, response) => {
 };
 
 
-export const updateMeal = async (request, response) => {
+export const updateMealById = async (request, response) => {
   try {
     const id = request.params.id;
-    const recipes = await Recipe1.findByIdAndUpdate(id, request.body);
+    const recipes = await Recipe1.findOneAndUpdate(id, request.body);
     response.status(201).json(recipes)
   } catch (error) {
     console.error(error);
