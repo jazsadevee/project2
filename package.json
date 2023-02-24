@@ -5,10 +5,12 @@
   "main": "api/index.js",
   "scripts": {
     "prestart": "vercel env pull .env",
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "build": "node seed/seed.js"
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.9.2",
     "node-fetch": "^3.3.0"

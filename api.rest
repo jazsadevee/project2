@@ -72,5 +72,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63f7c8543dc311a1566a6354
+DELETE {{baseUrl}}meal/63f7c8543dc311a1566a635b
 ###

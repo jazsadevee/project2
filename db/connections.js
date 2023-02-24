@@ -1,5 +1,8 @@
 import mongoose from "mongoose";
 
+
+mongoose.connect(process.env.DATABASE_URL);
+
 mongoose.set("returnOriginal", false);
 mongoose.set('strictQuery', true);
 
