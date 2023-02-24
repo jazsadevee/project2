@@ -4,7 +4,7 @@ import * as controllers from "../controllers/Meal.js"
 
 const mealsRoutes = Router();
 
-mealsRoutes.get("/", controllers.getMeal);
+mealsRoutes.get("/", controllers.getAllMeal);
 mealsRoutes.get("/meal/:id", controllers.getMeals);
 
 mealsRoutes.post("/meal", controllers.createMeal);

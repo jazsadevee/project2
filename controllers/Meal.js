@@ -3,7 +3,7 @@ import Recipe1 from "../models/recipe.js";
 
 
 
-export const getMeal = async (request, response) => {
+export const getAllMeal = async (request, response) => {
   try {
     const recipe = await Recipe1.find();
     response.json(recipe);
