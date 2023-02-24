@@ -46,7 +46,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f8e9aed6c073daa8ae33ce
+PATCH  {{baseUrl}}meal/63f8fd934c5b2147cb7df5f9
 Content-Type: application/json
 
 {
@@ -54,14 +54,14 @@ Content-Type: application/json
    "meal": "Test Meal",
    "ingredientList":[
       {
-         "item": "chicken",
-         "item": "flour"
+         "items1": "chicken",
+         "items2": "flour"
       }
    ],
    "measurement":[
       {
-         "size": "4 chickens",
-         "size": "3 cups"
+         "size1": "4 chickens",
+         "size2": "3 cups"
       }
    ],
    "vegetarian": false,
@@ -72,5 +72,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63f7c8543dc311a1566a635b
+DELETE {{baseUrl}}meal/63f8fd934c5b2147cb7df5f9
 ###
