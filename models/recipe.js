@@ -54,7 +54,9 @@ let meal = new Schema({
       size20: String,
       size21: String,
     }
-  ]
+  ],
+  vegetarian: Boolean,
+  userName: String
 });
 
 

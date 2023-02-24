@@ -52,7 +52,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f9076583ecaf05abb837d2
+PATCH  {{baseUrl}}meal/63f90698375313e609007af1
 Content-Type: application/json
 
 {
