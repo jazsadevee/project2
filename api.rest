@@ -52,7 +52,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f90698375313e609007af1
+PATCH  {{baseUrl}}meal/63f922fd3e72ebdecc4885e8
 Content-Type: application/json
 
 {
@@ -78,5 +78,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63f9076583ecaf05abb837d2
+DELETE {{baseUrl}}meal/63f924f8098fb829af763f96
 ###
