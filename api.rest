@@ -15,7 +15,7 @@ GET {{baseUrl}}
 
 # @name GetRecipe
 
-GET {{baseUrl}}meal/Oven Baked Chicken
+GET {{baseUrl}}meal/Hamburgers
 ###
 
 
@@ -25,16 +25,22 @@ POST {{baseUrl}}meal
 Content-Type: application/json
 
 {
-   "category": "Vegetarian",
-   "meal": "Rice",
+   "category": "vegetarian",
+   "meal": "eggs",
    "ingredientList":[
       {
-         "items1": "rice"
+         "items1": "eggs",
+         "items2": "cheese",
+         "items3": "salt",
+         "items4": "pepper"
       }
    ],
    "measurement":[
       {
-         "size1": "1 cup"
+         "size1": "1/4 cup cheese",
+         "size2": "2 eggs",
+         "size3": "1/2 teaspoon salt",
+         "size4": "1 teaspoon Pepper"
       }
    ],
    "vegetarian": true,
@@ -46,7 +52,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f8fd934c5b2147cb7df5f9
+PATCH  {{baseUrl}}meal/63f9076583ecaf05abb837d2
 Content-Type: application/json
 
 {
@@ -72,5 +78,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63f8fd934c5b2147cb7df5f9
+DELETE {{baseUrl}}meal/63f9076583ecaf05abb837d2
 ###

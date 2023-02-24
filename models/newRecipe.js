@@ -6,12 +6,12 @@ let newRecipe = new Schema({
   meal: String,
   ingredientList: [
     {
-      item: String,
+      items1: String
     }
   ],
   measurement: [
     {
-      size: String
+      size1: String
     }
   ],
   vegetarian: Boolean,
