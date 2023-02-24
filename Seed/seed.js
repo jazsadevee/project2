@@ -14,12 +14,13 @@ const insertData = async () => {
   // await Ingredient.create(Ingredient);
 
 };
-mongoose.connect(process.env.DATABASE_URL)
-mongoose.set('strictQuery', true)
 
-await seed()
+mongoose.connect(process.env.DATABASE_URL);
+mongoose.set('strictQuery', true);
+
+await seed();
 await insertData();
-await mongoose.disconnect()
+await mongoose.disconnect();
 
 
 
