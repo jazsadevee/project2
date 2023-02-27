@@ -15,7 +15,7 @@ GET {{baseUrl}}
 
 # @name GetRecipe
 
-GET {{baseUrl}}meal/Hamburgers
+GET {{baseUrl}}meal/Meatloaf
 ###
 
 
@@ -52,7 +52,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH  {{baseUrl}}meal/63f922fd3e72ebdecc4885e8
+PATCH {{baseUrl}}meal/63f922fd3e72ebdecc4885e8
 Content-Type: application/json
 
 {

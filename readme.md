@@ -3,21 +3,21 @@
 
 ### Description:
 
-Simple Chef is an app that will provide the user with a list of recipes based on the main ingredients.. i.e seafood, chicken, beef/steak, vegetarian, turkey or pork. It will provide a list of ingredients and instructions of the chosen meal. 
+Simple Chef is a recipe-sharing app that allows users to upload and browse recipes based on their main ingredient. Users can select from a variety of main ingredients such as seafood, chicken, beef/steak, vegetarian, turkey, or pork. Users can upload their recipe which contains the meal name, list of ingredients and instructions. Other users can then search for recipes based on their desired ingredient and browse through the available options. Overall, Simple Chef is an ideal app for anyone looking for inspiration in the kitchen or wanting to share their favorite recipes with others.
 
-### API: 
-https://www.themealdb.com/api
-
+### API References: 
+- Pinterest.com
+- allrecipes.com
+- tasty.co
 ### MVP 
 
-- Choose an API with viable information for the app (build database to be used) 
-- Create route & controller for the backend.. ingredients, description, instructions and the recipe name 
+- Choose or build a database with viable information for the application 
+- Create route & controller then ensure seeding this information: Ingredients, Description, Instructions and the Recipe name 
 - Create models for ingredients, description, instructions and the recipe names 
 
 ### Post MVP 
 
 - frontend design 
-- drop down menu/navigational bar to choose or create recipes 
 - Animation for the page 
 - Create a Dessert section to database
 
@@ -36,6 +36,7 @@ https://www.themealdb.com/api
 | /api/Recipe/:meal  | GET  | SHOW  | Show a single Recipe  |
 | /api/Recipe/:meal  | PUT  | UPDATE  | Update a Recipe  |
 | /api/Recipe/:meal  | DELETE  | DELETE  | Delete a Recipe  |
+
 ### Data Model
 
 ```javascript
