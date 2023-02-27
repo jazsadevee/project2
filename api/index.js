@@ -1,11 +1,14 @@
 import express, { json, response } from 'express'
+import cors from 'cors';
 import mongoose from 'mongoose'
 import lifecycle from './middleware/lifecycle.js'
 import Recipe1 from '../models/recipe.js'
 import { Router } from "express";
 import mealsRoutes from "../route/meals.js";
 
+
 const app = express()
+app.use(cors())
 
 const router = Router();
 

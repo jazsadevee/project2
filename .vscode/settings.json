@@ -6,5 +6,8 @@
     "vercel": {
       "host": "https://project2-sooty.vercel.app",
     }
-  }
+  },
+  "vscode-pets.petColor": "green",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.petType": "snake"
 }

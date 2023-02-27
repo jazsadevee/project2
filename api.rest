@@ -52,12 +52,12 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH {{baseUrl}}meal/63fcd3537681c5239ad5087d
+PATCH {{baseUrl}}meal/63fcd7c7f1397f8732b7a9b9
 Content-Type: application/json
 
 {
    "category": "test",
-   "meal": "Test Meal",
+   "meal": "Test Meal update",
    "ingredientList":[
       {
          "items1": "chicken",
