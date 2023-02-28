@@ -33,7 +33,7 @@ Simple Chef is a recipe-sharing app that allows users to upload and browse recip
 |---|---|---|---|
 | /api/Recipe  | GET  | INDEX  | Indexes all the Recipe  |
 | /api/Recipe  | POST | CREATE  | Create a Recipe  |
-| /api/Recipe/:meal  | GET  | SHOW  | Show a single Recipe  |
+| /api/Recipe/:meal  | GET  | SHOW  | Show a single Recipe by the name  |
 | /api/Recipe/:meal  | PUT  | UPDATE  | Update a Recipe  |
 | /api/Recipe/:meal  | DELETE  | DELETE  | Delete a Recipe  |
 
