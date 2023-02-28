@@ -15,7 +15,7 @@ GET {{baseUrl}}
 
 # @name GetRecipe
 
-GET {{baseUrl}}meal/Beef Stew
+GET {{baseUrl}}meal/Creamy Garlic Parmesan Chicken
 ###
 
 
@@ -78,5 +78,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63fdfee212d0dfb6aa650e52
+DELETE {{baseUrl}}meal/63fe1b387305b55744576536
 ###
