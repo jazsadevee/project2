@@ -15,7 +15,7 @@ GET {{baseUrl}}
 
 # @name GetRecipe
 
-GET {{baseUrl}}meal/Meatloaf
+GET {{baseUrl}}meal/Beef Stew
 ###
 
 
@@ -52,7 +52,7 @@ Content-Type: application/json
 
 # @name UpdateRecipe
 
-PATCH {{baseUrl}}meal/63fd2bf04aa07f7a2b10d522
+PATCH {{baseUrl}}meal/63fdff883d6feac949da33ee
 Content-Type: application/json
 
 {
@@ -78,5 +78,5 @@ Content-Type: application/json
 
 
 # @name DeleteRecipe
-DELETE {{baseUrl}}meal/63f924f8098fb829af763f96
+DELETE {{baseUrl}}meal/63fdfee212d0dfb6aa650e52
 ###

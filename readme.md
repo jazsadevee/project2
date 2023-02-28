@@ -11,9 +11,9 @@ Simple Chef is a recipe-sharing app that allows users to upload and browse recip
 - tasty.co
 ### MVP 
 
-- Choose or build a database with viable information for the application 
-- Create route & controller then ensure seeding this information: Ingredients, Description, Instructions and the Recipe name 
-- Create models for ingredients, description, instructions and the recipe names 
+- Choose and API or build a database with viable information for the application 
+- Create route & controller then ensure seeding this information: Recipe title, Description, Category, Ingredients, and Instruction on how to prepare the dish
+- Create models for receipes & new recipes 
 
 ### Post MVP 
 
